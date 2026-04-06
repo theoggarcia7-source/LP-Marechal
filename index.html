@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refrigeração Marechal | 57 Anos de Tradição em Refrigeração Comercial</title>
+  <meta name="description" content="Gases refrigerantes, canos de cobre e compressores com a melhor entrega de São Paulo. 57 anos de tradição, mais de 3.000 produtos. Atendimento especializado.">
+  <meta property="og:title" content="Refrigeração Marechal - 57 Anos de Tradição">
+  <meta property="og:description" content="Gases refrigerantes, canos de cobre e compressores. A entrega mais rápida de São Paulo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.refrigeracaomarechal.com.br">
+  <meta property="og:image" content="assets/img/logo.png">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --green: #586b4c;
+      --green-light: #6d8360;
+      --green-dark: #3f4e36;
+      --navy: #28385e;
+      --navy-light: #354a75;
+      --brown: #3d2b23;
+      --cream: #f5efe9;
+      --cream-dark: #e8ddd3;
+      --white: #ffffff;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-300: #d1d5db;
+      --gray-500: #6b7280;
+      --gray-700: #374151;
+      --gray-900: #111827;
+      --gold: #c9a227;
+      --gold-light: #e0b83a;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,.05);
+      --shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -2px rgba(0,0,0,.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1);
+      --shadow-xl: 0 20px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1);
+      --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,.25);
+      --radius: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: var(--gray-900);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ── Utility ── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 100px 0; }
+    .text-center { text-align: center; }
+
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 16px; border-radius: 100px;
+      font-size: 13px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase;
+    }
+    .badge-green { background: rgba(88,107,76,.1); color: var(--green); }
+    .badge-gold { background: rgba(201,162,39,.12); color: #9a7b00; }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: var(--gray-900);
+    }
+    .section-subtitle {
+      font-size: 1.125rem;
+      color: var(--gray-500);
+      max-width: 600px;
+      margin: 0 auto 48px;
+      line-height: 1.7;
+    }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 14px 32px; border-radius: 100px; font-size: 15px; font-weight: 600;
+      text-decoration: none; border: none; cursor: pointer;
+      transition: all .3s cubic-bezier(.4,0,.2,1);
+      position: relative; overflow: hidden;
+    }
+    .btn-primary {
+      background: var(--green); color: var(--white);
+      box-shadow: 0 4px 14px rgba(88,107,76,.35);
+    }
+    .btn-primary:hover {
+      background: var(--green-dark);
+      box-shadow: 0 6px 20px rgba(88,107,76,.45);
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: var(--white); color: var(--green);
+      border: 2px solid var(--green);
+    }
+    .btn-secondary:hover {
+      background: var(--green); color: var(--white);
+      transform: translateY(-2px);
+    }
+    .btn-whatsapp {
+      background: #25D366; color: var(--white);
+      box-shadow: 0 4px 14px rgba(37,211,102,.35);
+    }
+    .btn-whatsapp:hover {
+      background: #1fb855;
+      box-shadow: 0 6px 20px rgba(37,211,102,.45);
+      transform: translateY(-2px);
+    }
+    .btn-lg { padding: 18px 40px; font-size: 16px; }
+
+    /* ── Animations ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideLeft {
+      from { opacity: 0; transform: translateX(-40px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(40px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes counter { from { opacity: 0; } to { opacity: 1; } }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all .8s cubic-bezier(.4,0,.2,1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: .1s; }
+    .reveal-delay-2 { transition-delay: .2s; }
+    .reveal-delay-3 { transition-delay: .3s; }
+    .reveal-delay-4 { transition-delay: .4s; }
+    .reveal-delay-5 { transition-delay: .5s; }
+
+    /* ══════════════════════════════════════
+       HEADER / NAV
+    ══════════════════════════════════════ */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 16px 0;
+      background: rgba(255,255,255,.85);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(0,0,0,.05);
+      transition: all .3s;
+    }
+    .header.scrolled {
+      padding: 10px 0;
+      box-shadow: var(--shadow);
+    }
+    .header .container {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .header-logo {
+      display: flex; align-items: center; gap: 12px; text-decoration: none;
+    }
+    .header-logo img { height: 44px; width: auto; }
+    .header-logo span {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px; font-weight: 700; color: var(--green-dark);
+      line-height: 1.1;
+    }
+    .header-logo small {
+      display: block; font-family: 'Inter', sans-serif;
+      font-size: 10px; font-weight: 500; color: var(--gray-500);
+      letter-spacing: 2px; text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex; align-items: center; gap: 32px; list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none; font-size: 14px; font-weight: 500;
+      color: var(--gray-700); transition: color .2s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0;
+      width: 0; height: 2px; background: var(--green);
+      transition: width .3s;
+    }
+    .nav-links a:hover { color: var(--green); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      padding: 10px 24px !important; background: var(--green) !important;
+      color: var(--white) !important; border-radius: 100px !important;
+      font-weight: 600 !important;
+    }
+    .nav-cta:hover { background: var(--green-dark) !important; }
+    .nav-cta::after { display: none !important; }
+
+    .mobile-toggle {
+      display: none; background: none; border: none; cursor: pointer;
+      width: 36px; height: 36px; position: relative;
+    }
+    .mobile-toggle span {
+      display: block; width: 24px; height: 2px;
+      background: var(--gray-700); position: absolute; left: 6px;
+      transition: all .3s;
+    }
+    .mobile-toggle span:nth-child(1) { top: 10px; }
+    .mobile-toggle span:nth-child(2) { top: 17px; }
+    .mobile-toggle span:nth-child(3) { top: 24px; }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    .hero {
+      min-height: 100vh; display: flex; align-items: center;
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, var(--navy) 0%, var(--green-dark) 100%);
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: url('assets/img/hero-bg.jpg') center/cover;
+      opacity: .2;
+    }
+    .hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(40,56,94,.92) 0%, rgba(88,107,76,.85) 100%);
+    }
+    .hero .container { position: relative; z-index: 2; }
+    .hero-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+      padding: 120px 0 80px;
+    }
+    .hero-content { animation: slideLeft .8s ease-out; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 20px; border-radius: 100px;
+      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+      color: var(--gold-light); font-size: 13px; font-weight: 600;
+      letter-spacing: 1px; text-transform: uppercase;
+      margin-bottom: 24px; backdrop-filter: blur(4px);
+    }
+    .hero-badge svg { width: 16px; height: 16px; }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 5vw, 3.75rem);
+      font-weight: 800; line-height: 1.1;
+      color: var(--white); margin-bottom: 20px;
+    }
+    .hero h1 em {
+      font-style: normal; color: var(--gold-light);
+      text-decoration: underline; text-decoration-color: rgba(224,184,58,.3);
+      text-underline-offset: 6px;
+    }
+    .hero-text {
+      font-size: 1.125rem; color: rgba(255,255,255,.75);
+      line-height: 1.8; margin-bottom: 36px; max-width: 500px;
+    }
+    .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+    .hero-visual {
+      animation: slideRight .8s ease-out;
+      display: flex; justify-content: center;
+    }
+    .hero-stats {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    }
+    .stat-card {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(12px);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      text-align: center;
+      transition: all .3s;
+    }
+    .stat-card:hover {
+      background: rgba(255,255,255,.14);
+      transform: translateY(-4px);
+    }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem; font-weight: 800;
+      color: var(--gold-light); line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-label {
+      font-size: 13px; color: rgba(255,255,255,.65);
+      font-weight: 500; text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ══════════════════════════════════════
+       TRUST BAR
+    ══════════════════════════════════════ */
+    .trust-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-200);
+      padding: 24px 0;
+    }
+    .trust-items {
+      display: flex; justify-content: center; align-items: center;
+      gap: 48px; flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 14px; font-weight: 500; color: var(--gray-700);
+    }
+    .trust-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: rgba(88,107,76,.08);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--green); flex-shrink: 0;
+    }
+
+    /* ══════════════════════════════════════
+       PRODUCTS
+    ══════════════════════════════════════ */
+    #produtos { background: var(--gray-50); }
+    .products-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .product-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--gray-200);
+      transition: all .4s cubic-bezier(.4,0,.2,1);
+      position: relative;
+    }
+    .product-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-xl);
+      border-color: var(--green);
+    }
+    .product-img-wrap {
+      position: relative; overflow: hidden;
+      height: 220px; background: var(--cream);
+    }
+    .product-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform .6s cubic-bezier(.4,0,.2,1);
+    }
+    .product-card:hover .product-img-wrap img {
+      transform: scale(1.08);
+    }
+    .product-tag {
+      position: absolute; top: 12px; left: 12px;
+      padding: 4px 12px; border-radius: 100px;
+      font-size: 11px; font-weight: 700;
+      background: var(--green); color: var(--white);
+      text-transform: uppercase; letter-spacing: .5px;
+    }
+    .product-info { padding: 20px; }
+    .product-info h3 {
+      font-size: 1.05rem; font-weight: 700;
+      margin-bottom: 8px; color: var(--gray-900);
+    }
+    .product-info p {
+      font-size: .875rem; color: var(--gray-500);
+      line-height: 1.6; margin-bottom: 16px;
+    }
+    .product-cta {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; font-weight: 600; color: var(--green);
+      text-decoration: none; transition: gap .3s;
+    }
+    .product-cta:hover { gap: 14px; }
+
+    /* ══════════════════════════════════════
+       BENEFITS
+    ══════════════════════════════════════ */
+    #beneficios { background: var(--white); }
+    .benefits-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .benefit-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      padding: 36px 28px;
+      text-align: center;
+      transition: all .4s;
+      position: relative; overflow: hidden;
+    }
+    .benefit-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 3px; background: var(--green);
+      transform: scaleX(0); transition: transform .4s;
+    }
+    .benefit-card:hover::before { transform: scaleX(1); }
+    .benefit-card:hover {
+      background: var(--white);
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-4px);
+    }
+    .benefit-icon {
+      width: 64px; height: 64px; margin: 0 auto 20px;
+      border-radius: 16px; background: rgba(88,107,76,.08);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--green); transition: all .3s;
+    }
+    .benefit-card:hover .benefit-icon {
+      background: var(--green); color: var(--white);
+    }
+    .benefit-card h3 {
+      font-size: 1rem; font-weight: 700;
+      margin-bottom: 10px; color: var(--gray-900);
+    }
+    .benefit-card p {
+      font-size: .875rem; color: var(--gray-500); line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════
+       ABOUT / HISTORY
+    ══════════════════════════════════════ */
+    #sobre {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--green-dark) 100%);
+      color: var(--white); position: relative; overflow: hidden;
+    }
+    #sobre::before {
+      content: ''; position: absolute; inset: 0;
+      background: url('assets/img/about-bg.jpg') center/cover;
+      opacity: .08;
+    }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 60px; align-items: center;
+      position: relative; z-index: 2;
+    }
+    .about-content .section-title { color: var(--white); }
+    .about-content p {
+      color: rgba(255,255,255,.75);
+      font-size: 1.05rem; line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .about-highlights {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+      margin-top: 32px;
+    }
+    .about-highlight {
+      display: flex; align-items: flex-start; gap: 12px;
+      padding: 16px; border-radius: var(--radius);
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+    .about-highlight svg { flex-shrink: 0; color: var(--gold-light); }
+    .about-highlight strong {
+      display: block; font-size: .9rem; color: var(--white);
+      margin-bottom: 2px;
+    }
+    .about-highlight span {
+      font-size: .8rem; color: rgba(255,255,255,.55);
+    }
+    .about-image {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-2xl);
+    }
+    .about-image img {
+      width: 100%; height: 400px; object-fit: cover;
+      display: block;
+    }
+    .about-image-badge {
+      position: absolute; bottom: 24px; left: 24px;
+      background: rgba(0,0,0,.6); backdrop-filter: blur(8px);
+      color: var(--white); padding: 16px 24px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+    .about-image-badge strong {
+      display: block; font-family: 'Playfair Display', serif;
+      font-size: 2rem; color: var(--gold-light); line-height: 1;
+    }
+    .about-image-badge span {
+      font-size: .8rem; text-transform: uppercase;
+      letter-spacing: 1px; color: rgba(255,255,255,.7);
+    }
+
+    /* ══════════════════════════════════════
+       TESTIMONIALS
+    ══════════════════════════════════════ */
+    #depoimentos { background: var(--cream); }
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .testimonial-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      border: 1px solid var(--cream-dark);
+      position: relative;
+      transition: all .3s;
+    }
+    .testimonial-card:hover {
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-4px);
+    }
+    .testimonial-stars {
+      display: flex; gap: 2px; margin-bottom: 16px;
+      color: var(--gold);
+    }
+    .testimonial-text {
+      font-size: .95rem; color: var(--gray-700);
+      line-height: 1.8; margin-bottom: 24px;
+      font-style: italic;
+    }
+    .testimonial-text::before { content: '\201C'; font-size: 2rem; color: var(--green); line-height: 0; vertical-align: -8px; margin-right: 4px; }
+    .testimonial-author {
+      display: flex; align-items: center; gap: 12px;
+      border-top: 1px solid var(--gray-200);
+      padding-top: 16px;
+    }
+    .testimonial-avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      background: var(--green); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 16px;
+    }
+    .testimonial-name {
+      font-weight: 600; font-size: .9rem;
+      color: var(--gray-900);
+    }
+    .testimonial-role {
+      font-size: .8rem; color: var(--gray-500);
+    }
+
+    /* ══════════════════════════════════════
+       CTA SECTION
+    ══════════════════════════════════════ */
+    .cta-section {
+      background: var(--green);
+      padding: 80px 0;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .cta-section::before {
+      content: ''; position: absolute; inset: 0;
+      background: url('assets/img/banner-section.jpg') center/cover;
+      opacity: .1;
+    }
+    .cta-section .container { position: relative; z-index: 2; }
+    .cta-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      color: var(--white); margin-bottom: 16px;
+    }
+    .cta-section p {
+      color: rgba(255,255,255,.8);
+      font-size: 1.1rem; margin-bottom: 32px;
+      max-width: 500px; margin-left: auto; margin-right: auto;
+    }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .cta-section .btn-primary {
+      background: var(--white); color: var(--green);
+    }
+    .cta-section .btn-primary:hover {
+      background: var(--cream); transform: translateY(-2px);
+    }
+
+    /* ══════════════════════════════════════
+       MAP + CONTACT
+    ══════════════════════════════════════ */
+    #contato { background: var(--white); }
+    .contact-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 48px; align-items: start;
+    }
+    .contact-info h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem; margin-bottom: 24px;
+    }
+    .contact-item {
+      display: flex; align-items: flex-start; gap: 16px;
+      margin-bottom: 20px;
+    }
+    .contact-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: rgba(88,107,76,.08); color: var(--green);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .contact-item strong { display: block; font-size: .95rem; margin-bottom: 2px; }
+    .contact-item span { font-size: .875rem; color: var(--gray-500); }
+    .contact-item a { color: var(--green); text-decoration: none; font-weight: 500; }
+    .contact-map {
+      border-radius: var(--radius-lg); overflow: hidden;
+      box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);
+    }
+    .contact-map iframe {
+      width: 100%; height: 380px; border: 0;
+    }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    .footer {
+      background: var(--gray-900); color: rgba(255,255,255,.5);
+      padding: 48px 0 24px;
+    }
+    .footer-top {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,.08);
+      margin-bottom: 24px;
+    }
+    .footer-logo { display: flex; align-items: center; gap: 10px; }
+    .footer-logo img { height: 36px; filter: brightness(0) invert(1); opacity: .8; }
+    .footer-logo span {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px; color: rgba(255,255,255,.8);
+    }
+    .footer-bottom {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: .8rem;
+    }
+
+    /* ══════════════════════════════════════
+       WHATSAPP FLOAT
+    ══════════════════════════════════════ */
+    .whatsapp-float {
+      position: fixed; bottom: 24px; right: 24px; z-index: 999;
+      width: 60px; height: 60px; border-radius: 50%;
+      background: #25D366; color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,.4);
+      transition: all .3s; text-decoration: none;
+      animation: pulse 2s infinite;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 28px rgba(37,211,102,.5);
+    }
+    .whatsapp-float svg { width: 30px; height: 30px; }
+
+    /* ══════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════ */
+    @media (max-width: 960px) {
+      .hero-grid { grid-template-columns: 1fr; text-align: center; padding: 140px 0 80px; }
+      .hero-text { margin: 0 auto 36px; }
+      .hero-buttons { justify-content: center; }
+      .hero-visual { margin-top: 40px; }
+      .about-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .benefits-grid { grid-template-columns: 1fr 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .mobile-toggle { display: block; }
+      .nav-links.active {
+        display: flex; flex-direction: column;
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: var(--white); padding: 24px;
+        box-shadow: var(--shadow-lg);
+        border-top: 1px solid var(--gray-200);
+      }
+      .hero h1 { font-size: 2.2rem; }
+      .hero-stats { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .stat-number { font-size: 2.2rem; }
+      .benefits-grid { grid-template-columns: 1fr; }
+      .products-grid { grid-template-columns: 1fr 1fr; }
+      .section { padding: 64px 0; }
+      .about-highlights { grid-template-columns: 1fr; }
+      .footer-top, .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    }
+    @media (max-width: 480px) {
+      .products-grid { grid-template-columns: 1fr; }
+      .hero-stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="header-logo">
+        <img src="assets/img/logo.png" alt="Marechal">
+        <span>Marechal<small>Refrigeração Comercial</small></span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Desde 1968 — 57 anos de tradição
+          </div>
+          <h1>A referência em <em>refrigeração comercial</em> de São Paulo</h1>
+          <p class="hero-text">
+            Gases refrigerantes, canos de cobre e compressores com a entrega mais rápida de SP. Mais de 3.000 produtos com o melhor custo-benefício do mercado.
+          </p>
+          <div class="hero-buttons">
+            <a href="#produtos" class="btn btn-primary btn-lg">
+              Ver Produtos
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contato" class="btn btn-secondary btn-lg" style="border-color: rgba(255,255,255,.3); color: var(--white);">
+              Fale Conosco
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-number" data-count="57">57</div>
+              <div class="stat-label">Anos de mercado</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3000<span style="font-size:1.5rem">+</span></div>
+              <div class="stat-label">Produtos</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">#1</div>
+              <div class="stat-label">Entrega rápida SP</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">12x</div>
+              <div class="stat-label">Sem juros no cartão</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TRUST BAR ═══ -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          Qualidade garantida
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          Entrega expressa SP
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          Parcelamento s/ juros
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          57 anos de tradição
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ PRODUTOS ═══ -->
+  <section class="section" id="produtos">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="badge badge-green">Catálogo</span>
+        <h2 class="section-title" style="margin-top: 12px;">Nossos produtos mais requisitados</h2>
+        <p class="section-subtitle">Trabalhamos com as melhores marcas do mercado, sempre com estoque pronto e entrega ágil para toda São Paulo.</p>
+      </div>
+      <div class="products-grid">
+        <!-- Gás R22 -->
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-r22.jpg" alt="Gás Refrigerante R22" loading="lazy">
+            <span class="product-tag">Mais vendido</span>
+          </div>
+          <div class="product-info">
+            <h3>Gás Refrigerante R22</h3>
+            <p>Gás para sistemas de ar condicionado e refrigeração comercial. Diversas embalagens disponíveis.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- R410A -->
+        <div class="product-card reveal reveal-delay-2">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-r410a.jpg" alt="Gás Refrigerante R410A" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Gás Refrigerante R410A</h3>
+            <p>Indicado para sistemas inverter e split de alta eficiência. Cilindros e latas disponíveis.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- R404A -->
+        <div class="product-card reveal reveal-delay-3">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-r404a.jpg" alt="Gás Refrigerante R404A" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Gás Refrigerante R404A</h3>
+            <p>Ideal para câmaras frigoríficas e refrigeração comercial de média e baixa temperatura.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Cobre Flex -->
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-cobre-flex.jpg" alt="Cano de Cobre Flexível" loading="lazy">
+            <span class="product-tag">Melhor preço</span>
+          </div>
+          <div class="product-info">
+            <h3>Cano de Cobre — Flexível</h3>
+            <p>Para instalação de ar condicionado e refrigeração comercial. Diversas bitolas e metragens.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Cobre Rígido -->
+        <div class="product-card reveal reveal-delay-2">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-cobre-rigido.jpg" alt="Cano de Cobre Rígido" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Cano de Cobre — Rígido</h3>
+            <p>Para instalações fixas de refrigeração e climatização. Alta durabilidade e qualidade.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Compressores -->
+        <div class="product-card reveal reveal-delay-3">
+          <div class="product-img-wrap">
+            <img src="assets/img/produto-compressores.jpg" alt="Compressores e Unidades Condensadoras" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Compressores e Condensadoras</h3>
+            <p>Unidades condensadoras e compressores das melhores marcas para refrigeração profissional.</p>
+            <a href="#contato" class="product-cta">
+              Solicitar orçamento
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BENEFÍCIOS ═══ -->
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="badge badge-gold">Por que a Marechal?</span>
+        <h2 class="section-title" style="margin-top: 12px;">Os melhores benefícios do mercado</h2>
+        <p class="section-subtitle">Não é à toa que somos referência há mais de cinco décadas. Confira nossas vantagens exclusivas.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Entrega mais rápida de SP</h3>
+          <p>Logística otimizada para que seu pedido chegue no menor tempo possível em toda a Grande São Paulo.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>57 anos de tradição</h3>
+          <p>Desde 1968 atendendo profissionais de refrigeração com excelência, confiança e conhecimento técnico.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3>12x sem juros no cartão</h3>
+          <p>Facilidade de pagamento para você equipar sua empresa sem comprometer o fluxo de caixa.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+          </div>
+          <h3>Melhor custo-benefício</h3>
+          <p>Preços competitivos em cobre, gases e componentes. Compra direto dos melhores fabricantes.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>Mais de 3.000 produtos</h3>
+          <p>Estoque completo de gases, cobre, compressores, ferramentas e acessórios para refrigeração.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Atendimento especializado</h3>
+          <p>Equipe técnica que entende do seu negócio. Consultoria personalizada para cada necessidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SOBRE ═══ -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <span class="badge" style="background: rgba(255,255,255,.1); color: var(--gold-light);">Nossa história</span>
+          <h2 class="section-title" style="margin-top: 12px;">Uma rede ampla e especializada em refrigeração comercial</h2>
+          <p>Desde 1968, a Refrigeração Marechal é sinônimo de qualidade e confiança no mercado de refrigeração comercial de São Paulo.</p>
+          <p>Trabalhamos com extremo cuidado e respeito com os seus produtos perecíveis, garantindo máxima eficiência para o seu negócio com os melhores equipamentos e insumos do mercado.</p>
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <div>
+                <strong>Estoque próprio</strong>
+                <span>Pronta entrega sempre</span>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <div>
+                <strong>Marcas líderes</strong>
+                <span>Só trabalha com o melhor</span>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <div>
+                <strong>Equipe técnica</strong>
+                <span>Consultoria especializada</span>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <div>
+                <strong>Logística ágil</strong>
+                <span>A mais rápida da capital</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image reveal reveal-delay-2">
+          <img src="assets/img/banner-section.jpg" alt="Refrigeração Marechal — 57 anos">
+          <div class="about-image-badge">
+            <strong>57</strong>
+            <span>anos de tradição</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DEPOIMENTOS ═══ -->
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="badge badge-green">Depoimentos</span>
+        <h2 class="section-title" style="margin-top: 12px;">O que nossos clientes dizem</h2>
+        <p class="section-subtitle">Quem compra na Marechal, volta. Confira depoimentos reais de quem confia no nosso trabalho há décadas.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">Excelente atendimento, ótimos preços! E muita agilidade na entrega. Sempre que preciso de gases ou cobre, é aqui que compro.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RF</div>
+            <div>
+              <div class="testimonial-name">Rodrigo Fernandes</div>
+              <div class="testimonial-role">Técnico em refrigeração</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-stars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">Marechal, só compro em outro lugar se não tiver. Cliente há 27 anos e nunca me decepcionou. Qualidade e confiança sempre.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">JM</div>
+            <div>
+              <div class="testimonial-name">Jesse M. Moraes</div>
+              <div class="testimonial-role">Cliente há 27 anos</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-3">
+          <div class="testimonial-stars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-text">Muito bom, atendido pelo vendedor Haroldo. Profissional nota 10, conhece tudo de refrigeração. Recomendo demais!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RD</div>
+            <div>
+              <div class="testimonial-name">Rodrigo Duarte</div>
+              <div class="testimonial-role">Empresário</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="reveal">Precisa de orçamento? Fale com a gente agora</h2>
+      <p class="reveal reveal-delay-1">Atendimento rápido, preços competitivos e entrega expressa para toda São Paulo.</p>
+      <div class="cta-buttons reveal reveal-delay-2">
+        <a href="#contato" class="btn btn-primary btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Ligar Agora
+        </a>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" class="btn btn-whatsapp btn-lg" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTATO ═══ -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="badge badge-green">Localização</span>
+        <h2 class="section-title" style="margin-top: 12px;">Venha nos visitar</h2>
+        <p class="section-subtitle">Estamos no coração de São Paulo, prontos para atender você presencialmente.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Informações de contato</h3>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Alameda Glete, 778 — Campos Elíseos<br>São Paulo - SP, 01215-001</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <strong>Telefone</strong>
+              <span><a href="tel:+551133131313">(11) 3313-1313</a></span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span><a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site" target="_blank">Clique para conversar</a></span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <strong>Horário</strong>
+              <span>Segunda a Sexta: 8h - 17h30<br>Sábado: 8h - 12h</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map reveal reveal-delay-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.195!2d-46.6479!3d-23.5327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMxJzU3LjciUyA0NsKwMzgnNTIuNCJX!5e0!3m2!1sen!2sbr!4v1234567890"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Refrigeração Marechal"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="assets/img/logo.png" alt="Marechal">
+          <span>Marechal</span>
+        </div>
+        <div style="display: flex; gap: 24px;">
+          <a href="#produtos" style="color: rgba(255,255,255,.5); text-decoration: none; font-size: .85rem;">Produtos</a>
+          <a href="#beneficios" style="color: rgba(255,255,255,.5); text-decoration: none; font-size: .85rem;">Benefícios</a>
+          <a href="#sobre" style="color: rgba(255,255,255,.5); text-decoration: none; font-size: .85rem;">Sobre</a>
+          <a href="#contato" style="color: rgba(255,255,255,.5); text-decoration: none; font-size: .85rem;">Contato</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Refrigeração Marechal — Todos os direitos reservados</span>
+        <span>Alameda Glete, 778 — Campos Elíseos, São Paulo - SP</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ WHATSAPP FLOAT ═══ -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ═══ SCRIPTS ═══ -->
+  <script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('active'));
+    });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Counter animation
+    const counters = document.querySelectorAll('.stat-number[data-count]');
+    const countObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const end = parseInt(el.dataset.count);
+          let start = 0;
+          const step = end / 40;
+          const timer = setInterval(() => {
+            start += step;
+            if (start >= end) { el.textContent = end; clearInterval(timer); }
+            else el.textContent = Math.floor(start);
+          }, 30);
+          countObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(c => countObserver.observe(c));
+  </script>
+</body>
+</html>

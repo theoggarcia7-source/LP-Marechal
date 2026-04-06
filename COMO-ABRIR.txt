@@ -1,0 +1,77 @@
+============================================
+ LANDING PAGE — REFRIGERAÇÃO MARECHAL
+ Como abrir no notebook para apresentar
+============================================
+
+OPÇÃO 1 — ABRIR ONLINE (mais fácil)
+------------------------------------
+O site está publicado no surge.sh:
+
+   https://lp-marechal.surge.sh
+
+Basta abrir esse link em qualquer navegador.
+Funciona sem precisar instalar nada.
+
+
+OPÇÃO 2 — ABRIR LOCAL (offline)
+------------------------------------
+1. Copie toda a pasta "lp-marechal" para o notebook
+   (pode ser via pen drive, Google Drive, etc)
+
+2. Dentro da pasta, dê duplo-clique no arquivo:
+   index.html
+
+3. O site abre direto no navegador (Chrome, Edge, etc)
+
+NOTA: As imagens estão na pasta assets/img/
+Se copiar apenas o index.html sem a pasta assets,
+as imagens não vão aparecer.
+
+
+OPÇÃO 3 — SERVIDOR LOCAL (avançado)
+------------------------------------
+Se quiser testar com servidor local:
+
+1. Abra o terminal na pasta do projeto
+2. Execute:
+   npx serve .
+3. Acesse http://localhost:3000
+
+
+ESTRUTURA DOS ARQUIVOS
+------------------------------------
+lp-marechal/
+├── index.html          ← O site (tudo aqui)
+├── COMO-ABRIR.txt      ← Este arquivo
+├── assets/
+│   └── img/
+│       ├── logo.png
+│       ├── hero-bg.jpg
+│       ├── banner-section.jpg
+│       ├── about-bg.jpg
+│       ├── produto-r22.jpg
+│       ├── produto-r410a.jpg
+│       ├── produto-r404a.jpg
+│       ├── produto-cobre-flex.jpg
+│       ├── produto-cobre-rigido.jpg
+│       ├── produto-compressores.jpg
+│       ├── produto-condensadora.jpg
+│       └── (demais imagens)
+
+
+OBSERVAÇÕES
+------------------------------------
+- O número de WhatsApp no site é placeholder (999999999)
+  Trocar para o número real da loja antes de usar em produção.
+
+- O telefone (11) 3313-1313 também é placeholder.
+  Trocar para o número real.
+
+- O mapa do Google é uma localização aproximada.
+  Para o embed correto:
+  1. Vá no Google Maps
+  2. Pesquise "Alameda Glete 778 São Paulo"
+  3. Clique em Compartilhar → Incorporar mapa
+  4. Copie o src="" do iframe e substitua no index.html
+
+============================================
