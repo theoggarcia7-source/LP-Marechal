@@ -5,12 +5,14 @@
 
 OPÇÃO 1 — ABRIR ONLINE (mais fácil)
 ------------------------------------
-O site está publicado no surge.sh:
+O site está publicado no GitHub Pages:
 
-   https://lp-marechal.surge.sh
+   https://theoggarcia7-source.github.io/LP-Marechal/
 
 Basta abrir esse link em qualquer navegador.
 Funciona sem precisar instalar nada.
+
+Repositório: https://github.com/theoggarcia7-source/LP-Marechal
 
 
 OPÇÃO 2 — ABRIR LOCAL (offline)
